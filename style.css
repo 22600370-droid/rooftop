@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+/*MENU*/
+
+.navbar {
+    padding: 25px 0;
+    text-align: center;
+    background-color: white;
+    
+}
+
+
+
+.nav-menu-left{
+    list-style: none;
+
+
+    
+}
+.nav-menu-left>li
+{
+
+    display: inline-block;
+    width: 4.5%;
+
+}
+
+.nav-menu-left>.nav-logo{ 
+    width: 20%;
+}
+
+
+.nav-menu-left li a,
+.nav-menu-right li a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+}
+
+.rooftop-link {
+    font-weight: bold;
+    font-size: 14px 
+}
+
+
+
+.nav-logo img {
+    width: 66.81px;
+    height: 79.38px;
+}
+ 
+
+.hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.hero-content {
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.hero-title {
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+ 
+
+}
+
+.hero-divider {
+    width: 50px;
+    height: 1px;
+    background-color: #c0a040;
+    margin: 0 auto 20px;
+}
+
+.hero-subtitle {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+
+}
+/*tempero*/
+.imagem-tempero {
+    text-align: center;
+}
+
+.imagem-tempero {
+    background-image: url(susu.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 78vh;
+    position: relative;
+    text-align: center;
+}
+
+/* /boton/ */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.btn-outline {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.btn-gold {
+    color: black;
+    border-bottom: 1px solid #c0a040;
+}
